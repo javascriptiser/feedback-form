@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import { FeedbackForm } from './Components/Form';
 
 function App() {
   return (
-    <div className="App">
-      <h1>zdarova 4udiki</h1>
+    <div>
+      <FeedbackForm />
     </div>
   );
 }
